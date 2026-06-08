@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-whatsapp-dark: #075e54;
+  --color-whatsapp-teal: #128c7e;
+  --color-whatsapp-green: #25d366;
+  --color-whatsapp-light: #dcf8c6;
+  --color-whatsapp-bg: #e5ddd5;
+  --color-whatsapp-bg-dark: #0d1117;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Smooth scrolling for message list */
+.overflow-y-auto {
+  scroll-behavior: smooth;
+}
